@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f9e8d06b-dd7b-438c-8366-5dabd553fb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structs">
+      <UniqueIdentifier>{a39241bb-311d-478f-8744-97d4910e1c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\DefferedShaders">
+      <UniqueIdentifier>{e454059a-7914-44e4-bf40-de93d172936b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\ForwardShaders">
+      <UniqueIdentifier>{1181fb11-9680-4e4b-8bf8-b4e76f622d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\PostProcessShaders">
+      <UniqueIdentifier>{bb241e18-d416-4e7d-afa6-c8873f8b95f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\SkyBoxShaders">
+      <UniqueIdentifier>{de7d775d-3cce-4175-80ae-28e38338189d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{11e9ed83-262e-4c88-95db-d144a32c91cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Tyrian2000">
+      <UniqueIdentifier>{6fc3ec28-92bb-466f-a0b6-167dad6ff8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\DefaultScene">
+      <UniqueIdentifier>{542b6c6e-3d2a-4ad7-a652-d836b1d925d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene1">
+      <UniqueIdentifier>{d1c26fce-8792-40c1-9c98-c1ffcff79e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene2">
+      <UniqueIdentifier>{ac63ccf2-60dc-4340-8c97-7f624d76edcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\DefaultScene\Header">
+      <UniqueIdentifier>{9c2713d2-5a76-486e-b8a1-88fbd301af3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\DefaultScene\Source">
+      <UniqueIdentifier>{609c9656-e761-4d74-8592-69c3a5da7faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene2\Header">
+      <UniqueIdentifier>{abd96790-4c80-4ae5-b2e6-f33e7d741426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene2\Source">
+      <UniqueIdentifier>{533a280b-06f0-4752-be7c-ffbe9bfb29cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Tyrian2000\Header">
+      <UniqueIdentifier>{d2b81bed-0f82-4a9b-b0a1-b2a74ccc53b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Tyrian2000\Source">
+      <UniqueIdentifier>{7d5921c8-9b7e-40df-ae73-efd9b9c3a74e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene1\Header">
+      <UniqueIdentifier>{3345697d-cf6f-4a92-909a-365ee54ba576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Scene1\Source">
+      <UniqueIdentifier>{c9861956-3298-4a44-af11-5dade1f0ad84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\CanvasShaders">
+      <UniqueIdentifier>{149acf03-9344-4be4-bbbb-4e236209138b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mGui">
+      <UniqueIdentifier>{8373f670-3117-470d-9fb6-8d5e34e20973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mGui\Source">
+      <UniqueIdentifier>{61016573-e11f-422f-81c3-633a6fe70533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mGui\Header">
+      <UniqueIdentifier>{6d8ab7a1-024f-4491-bc73-79204e5ccdeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UISystem">
+      <UniqueIdentifier>{0ee1292a-86f6-40d8-80d9-9dc4c59ee00b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UISystem\Header">
+      <UniqueIdentifier>{f33ccdfb-a0df-488b-912b-035c5e67997e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UISystem\Source">
+      <UniqueIdentifier>{54b8202f-ce06-4a13-98c8-bbf4db3226f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cameras">
+      <UniqueIdentifier>{3d702505-990f-4814-b61b-c6bb6e7f52d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cameras\Header">
+      <UniqueIdentifier>{61381f07-68e8-41ce-89b0-d0126ab9bda1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cameras\Source">
+      <UniqueIdentifier>{edb2bb82-6501-4664-a4d2-b18d7f65ef29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem">
+      <UniqueIdentifier>{1fb4dcd3-bd0b-4e2c-a93c-de0c9686cb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Header">
+      <UniqueIdentifier>{23db90a6-7916-49e9-8ed4-ef08428f92d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParticleSystem\Source">
+      <UniqueIdentifier>{d9351cea-3f0b-4054-b93f-7be7dd027ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\ParticleShaders">
+      <UniqueIdentifier>{3ba7215b-6652-4977-8433-9e183aa7562f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Tyrian2000\HubWorld">
+      <UniqueIdentifier>{89f9ce3d-df09-4a6b-ac51-5707fe96db29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Tyrian2000\HubWorld\Header">
+      <UniqueIdentifier>{1035e834-5f51-4f14-87ec-89ad12c036ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Tyrian2000\HubWorld\Source">
+      <UniqueIdentifier>{a3909066-b946-4642-ac98-489accee6684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextSystem">
+      <UniqueIdentifier>{db04b933-423c-42f2-b7a1-8f112117a3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Tetris">
+      <UniqueIdentifier>{0964c767-65d6-4c21-9731-089062225c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Tetris\Header">
+      <UniqueIdentifier>{cc29d541-1968-4e54-a489-29c6878c8b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Tetris\Source">
+      <UniqueIdentifier>{9b46faf4-07cc-46fa-8fb7-7347fa2ee112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\FramRateTestScene">
+      <UniqueIdentifier>{b6eb421a-390e-4298-aa35-791bf3f0f9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\FramRateTestScene\Header">
+      <UniqueIdentifier>{468787a6-aa1f-4521-8d3b-9aeb6bc9e858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\FramRateTestScene\Source">
+      <UniqueIdentifier>{6e2ec99c-1087-47a2-b2c0-1f0aa5109972}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DXCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CosmicEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CosmicPhysic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scenes\Scene1\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tyrian2000.cpp">
+      <Filter>Scenes\Tyrian2000\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene2.cpp">
+      <Filter>Scenes\Scene2\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultScene.cpp">
+      <Filter>Scenes\DefaultScene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Scenes\Tyrian2000\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Scenes\Tyrian2000\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGroundTiles.cpp">
+      <Filter>Scenes\Tyrian2000\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameRateTestScene.cpp">
+      <Filter>Scenes\FramRateTestScene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Scenes\Tyrian2000\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CosmicInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FinishLine.cpp">
+      <Filter>Scenes\Tyrian2000\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mGui\imgui.cpp">
+      <Filter>mGui\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mGui\imgui_demo.cpp">
+      <Filter>mGui\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mGui\imgui_draw.cpp">
+      <Filter>mGui\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mGui\imgui_impl_dx11.cpp">
+      <Filter>mGui\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>UISystem\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UISystem\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>UISystem\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>UISystem\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Cameras\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeCamera.cpp">
+      <Filter>Cameras\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstPersonCamera.cpp">
+      <Filter>Cameras\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdPersonCamera.cpp">
+      <Filter>Cameras\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitter.cpp">
+      <Filter>ParticleSystem\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TyrianGameManager.cpp">
+      <Filter>Scenes\Tyrian2000\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopMenu.cpp">
+      <Filter>Scenes\Tyrian2000\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickHubWorld.cpp">
+      <Filter>Scenes\Tyrian2000\HubWorld\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TextClass.cpp">
+      <Filter>TextSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FontClass.cpp">
+      <Filter>TextSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleBuddy.cpp">
+      <Filter>Scenes\Tetris\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetris.cpp">
+      <Filter>Scenes\Tetris\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisBlock.cpp">
+      <Filter>Scenes\Tetris\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisScene.cpp">
+      <Filter>Scenes\Tetris\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HubWorldEngine.cpp">
+      <Filter>Scenes\Tyrian2000\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainHUBWorld.cpp">
+      <Filter>Scenes\Tyrian2000\HubWorld\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckerHubWorld.cpp">
+      <Filter>Scenes\Tyrian2000\HubWorld\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DryHubWorld.cpp">
+      <Filter>Scenes\Tyrian2000\HubWorld\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassHubWorld.cpp">
+      <Filter>Scenes\Tyrian2000\HubWorld\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LavaGroundHubWorld.cpp">
+      <Filter>Scenes\Tyrian2000\HubWorld\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LavaHubWorld.cpp">
+      <Filter>Scenes\Tyrian2000\HubWorld\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RainbowHubWorld.cpp">
+      <Filter>Scenes\Tyrian2000\HubWorld\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SandHubWorld.cpp">
+      <Filter>Scenes\Tyrian2000\HubWorld\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StarHubWorld.cpp">
+      <Filter>Scenes\Tyrian2000\HubWorld\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterHubWorld.cpp">
+      <Filter>Scenes\Tyrian2000\HubWorld\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DXCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingComponent.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceData.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="CosmicEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="CosmicPhysic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationData.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes\Scene1\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Tyrian2000.h">
+      <Filter>Scenes\Tyrian2000\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene2.h">
+      <Filter>Scenes\Scene2\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultScene.h">
+      <Filter>Scenes\DefaultScene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Scenes\Tyrian2000\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Scenes\Tyrian2000\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGroundTiles.h">
+      <Filter>Scenes\Tyrian2000\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameRateTestScene.h">
+      <Filter>Scenes\FramRateTestScene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Scenes\Tyrian2000\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CosmicInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FinishLine.h">
+      <Filter>Scenes\Tyrian2000\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mGui\imconfig.h">
+      <Filter>mGui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mGui\imgui.h">
+      <Filter>mGui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mGui\imgui_impl_dx11.h">
+      <Filter>mGui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mGui\imgui_internal.h">
+      <Filter>mGui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mGui\stb_rect_pack.h">
+      <Filter>mGui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mGui\stb_textedit.h">
+      <Filter>mGui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="mGui\stb_truetype.h">
+      <Filter>mGui\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>UISystem\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UISystem\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>UISystem\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>UISystem\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Cameras\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeCamera.h">
+      <Filter>Cameras\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstPersonCamera.h">
+      <Filter>Cameras\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdPersonCamera.h">
+      <Filter>Cameras\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitter.h">
+      <Filter>ParticleSystem\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>ParticleSystem\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleVertex.h">
+      <Filter>ParticleSystem\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainHUBWorld.h">
+      <Filter>Scenes\Tyrian2000\HubWorld\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassHubWorld.h">
+      <Filter>Scenes\Tyrian2000\HubWorld\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TyrianGameManager.h">
+      <Filter>Scenes\Tyrian2000\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimsVertex.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneInfo.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopMenu.h">
+      <Filter>Scenes\Tyrian2000\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickHubWorld.h">
+      <Filter>Scenes\Tyrian2000\HubWorld\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckerHubWorld.h">
+      <Filter>Scenes\Tyrian2000\HubWorld\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DryHubWorld.h">
+      <Filter>Scenes\Tyrian2000\HubWorld\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LavaGroundHubWorld.h">
+      <Filter>Scenes\Tyrian2000\HubWorld\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LavaHubWorld.h">
+      <Filter>Scenes\Tyrian2000\HubWorld\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RainbowHubWorld.h">
+      <Filter>Scenes\Tyrian2000\HubWorld\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SandHubWorld.h">
+      <Filter>Scenes\Tyrian2000\HubWorld\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StarHubWorld.h">
+      <Filter>Scenes\Tyrian2000\HubWorld\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterHubWorld.h">
+      <Filter>Scenes\Tyrian2000\HubWorld\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TextClass.h">
+      <Filter>TextSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FontClass.h">
+      <Filter>TextSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleBuddy.h">
+      <Filter>Scenes\Tetris\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetris.h">
+      <Filter>Scenes\Tetris\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisBlock.h">
+      <Filter>Scenes\Tetris\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisScene.h">
+      <Filter>Scenes\Tetris\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HubWorldEngine.h">
+      <Filter>Scenes\Tyrian2000\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\DefferedShaders\InstanceDVShader.hlsl">
+      <Filter>Shaders\DefferedShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DefferedShaders\PixelDShader.hlsl">
+      <Filter>Shaders\DefferedShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DefferedShaders\VertexDShader.hlsl">
+      <Filter>Shaders\DefferedShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ForwardShaders\InstanceFVShader.hlsl">
+      <Filter>Shaders\ForwardShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ForwardShaders\PixelFShader.hlsl">
+      <Filter>Shaders\ForwardShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ForwardShaders\VertexFShader.hlsl">
+      <Filter>Shaders\ForwardShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SkyBoxShaders\SkyPShader.hlsl">
+      <Filter>Shaders\SkyBoxShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SkyBoxShaders\SkyVShader.hlsl">
+      <Filter>Shaders\SkyBoxShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PostProcessShaders\BloomPShader.hlsl">
+      <Filter>Shaders\PostProcessShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PostProcessShaders\HdrPShader.hlsl">
+      <Filter>Shaders\PostProcessShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\PostProcessShaders\QuadVShader.hlsl">
+      <Filter>Shaders\PostProcessShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DefferedShaders\PLightingShader.hlsl">
+      <Filter>Shaders\DefferedShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ForwardShaders\PixelFSNShader.hlsl">
+      <Filter>Shaders\ForwardShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ForwardShaders\PixelFSShader.hlsl">
+      <Filter>Shaders\ForwardShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\CanvasShader\CanvasPShader.hlsl">
+      <Filter>Shaders\CanvasShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\CanvasShader\CanvasVShader.hlsl">
+      <Filter>Shaders\CanvasShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\CanvasShader\CanvasPTShader.hlsl">
+      <Filter>Shaders\CanvasShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ParticleShaders\ParticlePShader.hlsl">
+      <Filter>Shaders\ParticleShaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ParticleShaders\ParticleVShader.hlsl">
+      <Filter>Shaders\ParticleShaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
