@@ -1,4 +1,4 @@
-# NetworkingPlayground
+# Cosmic Engine
 
 ## Overview
 After two gruelling attempts with making and researching game engine development. This time I looked forward to understanding how to structure 
